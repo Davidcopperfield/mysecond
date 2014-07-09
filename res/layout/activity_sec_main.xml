@@ -1,0 +1,49 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background3"
+    tools:context="com.herl.mysec.SecMainActivity" >
+
+    <ImageButton
+        android:id="@+id/imagemicrowave"
+        android:layout_width="80dp"
+        android:layout_height="61dp"
+        android:layout_x="66dp"
+        android:layout_y="186dp"
+        android:onClick="getmicrowavestatus"
+        android:scaleType="fitXY"
+        android:src="@drawable/microwave" />
+
+    <ImageButton
+        android:id="@+id/imagestove"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_x="168dp"
+        android:layout_y="75dp"
+        android:onClick="getstovestatus"
+        android:scaleType="fitXY"
+        android:src="@drawable/stove" />
+
+    <ImageButton
+        android:id="@+id/imageoven"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_x="66dp"
+        android:layout_y="74dp"
+        android:onClick="getovenstatus"
+        android:scaleType="fitXY"
+        android:src="@drawable/oven" />
+
+    <ImageButton
+        android:id="@+id/imagefaucet"
+        android:layout_width="76dp"
+        android:layout_height="60dp"
+        android:layout_x="179dp"
+        android:layout_y="187dp"
+        android:onClick="getfaucetstatus"
+        android:scaleType="fitXY"
+        android:src="@drawable/faucet" />
+
+</AbsoluteLayout>
